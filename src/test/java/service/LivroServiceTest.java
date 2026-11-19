@@ -1,8 +1,9 @@
-package com.atividade.catalogo_livros.service;
+package service;
 
 import com.atividade.catalogo_livros.exception.RecursoNaoEncontradoException;
 import com.atividade.catalogo_livros.model.Livro;
 import com.atividade.catalogo_livros.repository.LivroRepository;
+import com.atividade.catalogo_livros.service.LivroService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
