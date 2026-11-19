@@ -1,7 +1,7 @@
 package com.atividade.catalogo_livros.controller;
 
-import .model.Livro;
-import .service.LivroService;
+import com.atividade.catalogo_livros.model.Livro;
+import com.atividade.catalogo_livros.service.LivroService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
